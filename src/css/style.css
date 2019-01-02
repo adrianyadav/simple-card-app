@@ -30,7 +30,7 @@
   display: none;
 }
 
-.active p span {
+.card p span {
   font-size: 30px;
   color: white;
 }
