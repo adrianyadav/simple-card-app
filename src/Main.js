@@ -21,7 +21,7 @@ class Main extends Component {
     let cards = this.state.cards;
 
     for (var i = 0; i < cards.length; i++) {
-      if (cards[i].id === card.id) {
+      if (cards[i].id === card.id && cards[i].status !== "active") {
         cards[i].status = "active";
       } else {
         cards[i].status = "inactive";
