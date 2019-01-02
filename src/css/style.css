@@ -32,6 +32,10 @@
 
 .card p span {
   font-size: 30px;
+}
+
+.active p span {
+  font-size: 30px;
   color: white;
 }
 
